@@ -1,0 +1,68 @@
+.root {
+    all: unset;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: var(--border-radius-medium);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.sizeSmall {
+    padding: auto 8px;
+    width: 98px;
+    font-size: var(--font-size-small);
+}
+
+.sizeMedium {
+    padding: auto 12px;
+    width: 116px;
+    font-size: 14px;
+}
+
+.sizeLarge {
+    padding: auto 16px;
+    width: 140px;
+    font-size: var(--font-size-big);
+}
+
+.typePrimary {
+    color: white;
+    background-color: var(--color-primary-60);
+}
+
+.typeError {
+    color: white;
+    background-color: var(--color-error-50);
+    border: 1px solid var(--color-error-50);
+}
+
+.typeGray {
+    color: white;
+    background-color: var(--color-gray-20);
+    border: 1px solid var(--color-gray-20);
+}
+
+.variantFill {
+}
+
+.variantOutline {
+    background-color: transparent;
+}
+
+.variantOutline.typePrimary {
+    border: 1px solid var(--color-primary-60);
+    color: var(--color-primary-60);
+}
+
+.variantOutline.typeError {
+    border: 1px solid var(--color-error-50);
+    color: var(--color-error-50);
+}
+
+.variantOutline.typeGray {
+    border: 1px solid var(--color-gray-20);
+    color: var(--color-gray-20);
+}
