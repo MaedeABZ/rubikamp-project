@@ -1,1 +1,0 @@
-# rubikamp-project
