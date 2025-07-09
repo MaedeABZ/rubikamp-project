@@ -19,6 +19,11 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+lerna-debug.log*
+>>>>>>> 9e0dc22
 
 # IDE
 .idea/
@@ -48,3 +53,74 @@ dist-ssr
 
 test.js
 
+<<<<<<< HEAD
+=======
+# vuepress v2.x temp and cache directory
+.temp
+.cache
+
+# Sveltekit cache directory
+.svelte-kit/
+
+# vitepress build output
+**/.vitepress/dist
+
+# vitepress cache directory
+**/.vitepress/cache
+
+# Docusaurus cache and generated files
+.docusaurus
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# Firebase cache directory
+.firebase/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn v3
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Vite logs files
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+=======
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+test.js
+>>>>>>> 1aaf6cf (Initial commit)
+>>>>>>> 9e0dc22
