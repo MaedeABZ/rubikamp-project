@@ -1,0 +1,166 @@
+/* کانتینر کلی */
+.container {
+  padding: 1.5rem;
+  font-family: sans-serif;
+}
+
+/* عنوان */
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* دکمه‌ی Create Product */
+.createButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.createButton:hover {
+  background-color: #0056b3;
+}
+
+/* کادر جستجو */
+.searchBox {
+  width: 60%;
+  max-width: 400px;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* جدول محصولات */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.table th {
+  background-color: #f5f5f5;
+}
+
+.table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* دکمه‌های Edit / Delete */
+.actionButton {
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin-right: 0.3rem;
+}
+
+.editButton {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.editButton:hover {
+  background-color: #e0a800;
+}
+
+.deleteButton {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.deleteButton:hover {
+  background-color: #c82333;
+}
+
+/* فرم Create / Edit داخل Modal */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.form input,
+.form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.submitButton {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  width: 100%;
+}
+
+.submitButton:disabled {
+  background-color: #94d3a2;
+  cursor: not-allowed;
+}
+
+.cancelButton {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+/* استایل modalOverlay و modalContent (اختیاری: اگر از Modal آماده استفاده نکردید) */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modalContent {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+  
+  
+  
